@@ -13,7 +13,7 @@ int main() {
 	cout << endl;
 
 	cout << "체온과 기침 증상 유무(true/false)를 입력하세요.\n? ";
-	cin >> temperature >> caugh_symp;
+	cin >> temperature >> caugh_symp; // 변수에 입력 받기 전에 boolalpha 조정자를 쓰면 된다.ㄴ
 	cout << endl;
 
 	// true false로만 입력 받을 수 있고, bool 변수로 판단해야 하므로 if로 변환
